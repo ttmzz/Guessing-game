@@ -2,6 +2,7 @@ body {
   background-color: rgb(50, 188, 223);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  min-height: 100vh;
 }
 
 .table {
@@ -11,6 +12,7 @@ body {
   border-radius: 10px;
   height: 20rem;
   width: 32rem;
+  max-width: 100%;
   margin: 100px auto 100px auto;
   position: relative;
 }
@@ -52,10 +54,11 @@ body {
 @media (max-width: 768px) {
   body {
     box-sizing: border-box;
+    overflow: hidden;
   }
   .table {
-  height: 33rem;
-  width: 26rem;
+  height: 633px;
+  width: 600px;
   }
 
   #title {
@@ -69,9 +72,9 @@ body {
  }
 
   .teste {
-    width: 72.4%;
+    width: 49%;
     margin-top: 200px;
-    margin-left: 54px;
+    margin-left: 154px;
   }
 
 }
