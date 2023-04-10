@@ -57,9 +57,8 @@ body {
     overflow: hidden;
   }
   .table {
-  min-height: 100vh;
+  height: 1800px;
   width: 600px;
-  max-width: 100%;
   }
 
   #title {
