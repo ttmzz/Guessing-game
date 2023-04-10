@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(50, 188, 223);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.table {
+  background-color: white;
+  border: 0px solid;
+  box-shadow: 1px 2px 2px 1px rgb(65, 65, 65);
+  border-radius: 10px;
+  height: 20rem;
+  width: 32rem;
+  margin: 100px auto 100px auto;
+  position: relative;
+}
+
+#title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(34, 34, 34);
+  text-shadow: 2px 0 rgb(105, 105, 105);
+  text-align: center;
+  height: 0.1%;
+  margin: 40px auto 10px auto;
+  padding: 78px 78px 55px 78px;
+}
+
+#title1, #title2 {
+  font-family: 'Press Start 2P', cursive;
+  color: rgba(34, 34, 34, 0.705);
+  text-align: center;
+  width: 50%;
+  margin: 18px auto 10px auto;
+}
+
+#title2 {
+  font-size: 0.8rem;
+}
+.teste {
+  width: 57%;
+  display: flex;
+  margin: 18px auto 10px auto;
+}
+
+.value {
+  background-color: rgb(235, 235, 230);
+  color: dimgray;
+  border: 1px solid brown;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    box-sizing: border-box;
+  }
+  .table {
+  height: 33rem;
+  width: 26rem;
+  }
+
+  #title {
+    line-height: 80px;
+  }
+
+  #title1, #title2 {
+    width: 100%;
+    margin-top: 68px;
+    line-height: 10px;
+ }
+
+  .teste {
+    width: 72.4%;
+    margin-top: 200px;
+    margin-left: 54px;
+  }
+
+}
