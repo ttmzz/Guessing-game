@@ -79,5 +79,9 @@ body {
     margin-left: 248px;
   }
 
+  button {
+    position: absolut;
+  }
+
 }
 
